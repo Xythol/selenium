@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>-->
+
+
+<div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <div id="errorElement"></div>
+    
+    <label for="psw"><b>Password</b></label>
+    <input id="password" type="text" placeholder="Enter Password" name="psw" required>
+
+    <!-- <button type="submit">Login</button> -->
+    <button onclick="CheckPassword()">Login</button>
+</div>
+
+<div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+</div>
+
+<script src="JS/validation.js"></script>
